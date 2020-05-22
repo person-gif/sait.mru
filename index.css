@@ -1,0 +1,94 @@
+body{
+    background-color: black;
+    color: white;
+}
+@font-face{
+    src: url('GAME word.ttf');
+    font-family: GAME word;
+}    
+.main{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+}
+nav{
+    flex: 100px;
+    
+    
+}
+.content{
+    flex: 60%;
+    display: flex;
+}
+.advs{
+    flex: 10%;
+    display: flex;
+    flex-direction: column;
+
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: rgb(71, 71, 71);
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    align-items: center;
+}
+
+.image{
+    width: 70%;
+    border-radius: 20px;
+}
+div{
+    color: white;
+    
+}
+@media screen and (max-width: 1366px; min-width: 320px;){
+
+}
+.h12{
+    display: flex;
+    
+    
+    width: 400px;
+    font-size: 50px;
+    font-family: GAME word;
+}
+.pocan{
+    width: 200px;
+    height: 150px;
+  
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(9, 207, 9);
+}
+
+.game{
+    border-radius: 20px;
+}
+.bb{
+    font-size: 100px;
+}
+nav ul{
+    list-style: none;
+}
+.n{
+    margin-left: 30px;
+}
